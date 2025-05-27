@@ -1,3 +1,5 @@
+/* App.css - minimal, use Tailwind for most styling */
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #18181b;
 }
 
 @keyframes App-logo-spin {

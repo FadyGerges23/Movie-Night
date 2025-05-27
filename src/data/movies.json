@@ -1,0 +1,104 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "title": "Spider-Man: No Way Home",
+            "overview": "Peter Parker's secret identity is revealed to the entire world. He turns to Doctor Strange for help.",
+            "release_date": "2021-12-15",
+            "vote_average": 8.3,
+            "vote_count": 18000,
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "genre": ["Action", "Adventure", "Science Fiction"]
+        },
+        {
+            "id": 2,
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "overview": "Doctor Strange faces a new threat that forces him to unleash a forbidden spell.",
+            "release_date": "2022-05-04",
+            "vote_average": 7.1,
+            "vote_count": 9500,
+            "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+            "genre": ["Action", "Fantasy", "Science Fiction"]
+        },
+        {
+            "id": 3,
+            "title": "Avatar: The Way of Water",
+            "overview": "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together.",
+            "release_date": "2022-12-14",
+            "vote_average": 7.6,
+            "vote_count": 12000,
+            "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+            "genre": ["Science Fiction", "Adventure", "Action"]
+        },
+        {
+            "id": 4,
+            "title": "John Wick: Chapter 4",
+            "overview": "With the price on his head ever increasing, John Wick takes his fight against the High Table global.",
+            "release_date": "2023-03-22",
+            "vote_average": 8.0,
+            "vote_count": 14000,
+            "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+            "genre": ["Action", "Thriller", "Crime"]
+        },
+        {
+            "id": 5,
+            "title": "Fast X",
+            "overview": "Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.",
+            "release_date": "2023-05-17",
+            "vote_average": 6.8,
+            "vote_count": 7000,
+            "poster_path": "/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+            "genre": ["Action", "Crime", "Thriller"]
+        },
+        {
+            "id": 6,
+            "title": "Dune",
+            "overview": "Paul Atreides must travel to the most dangerous planet in the universe to ensure the future of his family.",
+            "release_date": "2021-09-15",
+            "vote_average": 8.1,
+            "vote_count": 14000,
+            "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+            "genre": ["Science Fiction", "Adventure", "Drama"]
+        },
+        {
+            "id": 7,
+            "title": "Inception",
+            "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given an inverse task.",
+            "release_date": "2010-07-15",
+            "vote_average": 8.8,
+            "vote_count": 34000,
+            "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+            "genre": ["Action", "Science Fiction", "Adventure"]
+        },
+        {
+            "id": 8,
+            "title": "The Dark Knight",
+            "overview": "Batman sets out to dismantle the remaining criminal organizations that plague Gotham.",
+            "release_date": "2008-07-16",
+            "vote_average": 9.0,
+            "vote_count": 35000,
+            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+            "genre": ["Drama", "Action", "Crime"]
+        },
+        {
+            "id": 9,
+            "title": "Interstellar",
+            "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+            "release_date": "2014-11-05",
+            "vote_average": 8.6,
+            "vote_count": 30000,
+            "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+            "genre": ["Adventure", "Drama", "Science Fiction"]
+        },
+        {
+            "id": 10,
+            "title": "Avengers: Endgame",
+            "overview": "The Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+            "release_date": "2019-04-24",
+            "vote_average": 8.4,
+            "vote_count": 25000,
+            "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+            "genre": ["Action", "Adventure", "Science Fiction"]
+        }
+    ]
+}

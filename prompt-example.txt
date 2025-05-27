@@ -1,0 +1,43 @@
+Build a modern and responsive Movie Center Website (like Netflix or Disney+) called "Movie Night" using React, Tailwind CSS, and React Router. Follow best practices in code structure, accessibility, design, and performance.
+This app will allow users to browse and explore movies in a visually appealing way, using mock data from @movies.json file (mocks the @TMDB API response: https://developer.themoviedb.org/reference/intro/getting-started).
+
+Features:
+  1. Homepage:
+    - Hero section showing a featured movie (with background image, title, description/overview, and a “Play” and “More Info” button).
+    - Horizontally scrollable movie carousels for categories (use the same movies list data for each category just for demo):
+      - Trending Now
+      - Top Rated
+      - Action Movies
+      - Comedy Movies
+      - Documentaries
+    - Responsive layout with smooth horizontal scrolling.
+    - On clicking on a certain movie, it should navigate to the Movie Detail Page to view the movie details.
+
+  2. Movie Detail Page:
+    - Large banner with movie image and title.
+    - Overview/description, release date, genre tags, rating, votes.
+    - Option to "Watch Trailer" (opens modal or video preview --> you can embed any Youtube video just for demo).
+
+  3. Search Page:
+    - Search input with debounce.
+    - Real-time filtering of existing movies by title.
+    - Display results in a responsive grid.
+
+  4. Booking Page:
+    - Book a ticket for a film.
+    - Select among static showtimes.
+
+  5. Header/Navbar:
+     - Logo / Title (e.g., Movie Night).
+     - Navigation links (Home, Movies, TV Series).
+     - Sticky on scroll.
+     - Search icon.
+
+  6. Footer:
+    - Basic footer with social links and copyright.
+
+Break the UI into small reusable components, maintaining file size to be concise following the DRY principle.
+
+Add any dependencies needed inside @package.json 
+
+You can refer to React docs @React and Tailwind CSS docs @Tailwind CSS for best practices.
