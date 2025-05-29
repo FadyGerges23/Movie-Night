@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 export default function HeroSection({ movie }) {
   const navigate = useNavigate();
@@ -19,3 +20,7 @@ export default function HeroSection({ movie }) {
     </section>
   );
 } 
+
+HeroSection.propTypes = {
+  movie: PropTypes.object.isRequired,
+}

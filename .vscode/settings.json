@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "movie-night",
+        "projectKey": "movie-night"
+    }
+}
