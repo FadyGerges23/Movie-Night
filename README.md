@@ -39,3 +39,13 @@ Make sure to have React installed. You can follow the installation steps in the 
     ```
 
 4. Visit the website: [http://localhost:3000](http://localhost:3000)
+
+5. Install Sonar
+    ```
+    npm install --save-dev @sonar/scan
+    ```
+
+ 6. Run Sonar (need to add `sonar-project.properties` file first)
+    ```
+    sonar
+    ```   
