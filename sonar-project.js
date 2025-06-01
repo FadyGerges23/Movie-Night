@@ -1,4 +1,4 @@
-import { scan } from "sonarqube-scanner";
+import { scan } from "@sonar/scan";
 import dotenv from "dotenv";
 
 dotenv.config();
