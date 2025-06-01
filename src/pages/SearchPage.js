@@ -33,13 +33,13 @@ export default function SearchPage() {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {filtered.map((movie) => (
-          <div key={movie.id} className="bg-gray-900 rounded overflow-hidden shadow hover:scale-105 transition-transform cursor-pointer" onClick={() => navigate(`/movie/${movie.id}`)}>
+          <button key={movie.id} className="bg-gray-900 rounded overflow-hidden shadow hover:scale-105 transition-transform cursor-pointer" onClick={() => navigate(`/movie/${movie.id}`)}>
             <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} className="w-full h-60 object-cover"/>
             <div className="p-2">
               <h3 className="text-sm font-bold truncate">{movie.title}</h3>
               <p className="text-xs text-gray-400">{movie.release_date}</p>
             </div>
-          </div>
+          </button>
         ))}
         {filtered.length === 0 && <div className="col-span-full text-center text-gray-400">No movies found.</div>}
       </div>

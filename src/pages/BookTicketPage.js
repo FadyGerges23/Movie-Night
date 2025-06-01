@@ -24,8 +24,9 @@ export default function BookTicketPage() {
       <h1 className="text-2xl font-bold mb-6 text-yellow-400">Book a Ticket</h1>
       <form onSubmit={handleBook} className="space-y-4">
         <div>
-          <label className="block mb-1 font-semibold">Movie</label>
+          <label className="block mb-1 font-semibold" htmlFor="movie-select">Movie</label>
           <select
+            id="movie-select"
             className="w-full p-2 rounded bg-gray-800 text-white"
             value={selectedMovie}
             onChange={e => setSelectedMovie(e.target.value)}
@@ -37,8 +38,9 @@ export default function BookTicketPage() {
           </select>
         </div>
         <div>
-          <label className="block mb-1 font-semibold">Showtime</label>
+          <label className="block mb-1 font-semibold" htmlFor="showtime-select">Showtime</label>
           <select
+            id="showtime-select"
             className="w-full p-2 rounded bg-gray-800 text-white"
             value={selectedShowtime}
             onChange={e => setSelectedShowtime(e.target.value)}

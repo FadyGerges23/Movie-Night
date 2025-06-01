@@ -23,19 +23,40 @@ Make sure to have React installed. You can follow the installation steps in the 
         git clone git@github.com:FadyGerges23/Movie-Night.git
         ```
 
-1. Make sure that you are at the root directory of the project
+2. Make sure that you are at the root directory of the project
     ```
     cd Movie-Night
     ```
 
-2. Install dependencies
+3. Install dependencies
     ```
     npm install
     ```
 
-3. Run the project
+4. Run the project
     ```
     npm start
     ```
 
-4. Visit the website: [http://localhost:3000](http://localhost:3000)
+5. Visit the website: [http://localhost:3000](http://localhost:3000)
+
+6. Run SonarQube project for code analysis
+    ```
+    docker compose up
+    ```
+
+7. Create a `.env` file from `.env.example`
+    ```
+    cp .env.example .env
+    ```
+
+8. Add values for the environment variables:
+    - `SONAR_URL`: Host URL on which the Sonar Project instance is running.
+    - `SONAR_TOKEN`: The generated token for your Sonar Project.
+
+9. Run Sonar Scan for code analysis
+    ```
+    npm run sonar
+    ```
+
+10. Visit the SonarQube Project UI: [http://localhost:9000](http://localhost:9000)
